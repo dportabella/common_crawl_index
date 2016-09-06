@@ -220,6 +220,7 @@ The "copy" command will download the webpages from aws-publicdatasets and reuplo
 Example usage:
 
     chmod +x bin/remote_copy
+    pip install boto
     export AWS_ACCESS_KEY=<your aws access key>
     export AWS_SECRET_KEY=<your aws secret key>
     bin/remote_copy check "com.nytimes.blogs.fivethirtyeight, com.nytimes.blogs.thecaucus"
